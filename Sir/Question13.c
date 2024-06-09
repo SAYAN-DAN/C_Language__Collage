@@ -6,6 +6,6 @@ int main(){
     for ( i = 1,j =2; i <= 99 && j <= 100; i+=2,j+=2){
         sum = sum+i/j;
     }
-    printf("The sum is: %f",sum);
+    printf("The sum is: %f\n",sum);
     return 0;    
 }
