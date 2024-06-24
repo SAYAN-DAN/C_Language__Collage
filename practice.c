@@ -56,8 +56,10 @@
 // }
 
 
-#include <stdio.h> 
- int main() 
- { 
- printf("C programming %s", "Class by\n%s Sanfoundry", "WOW"); 
- }
+// Debug the code
+#include <stdio.h>
+
+int main() {
+    char name = 'A';
+    printf("%s", name == 'A' || name == 'C');
+}

@@ -1,6 +1,6 @@
 // Write a macro that swaps two numbers. WAP to use it.
-
 #include <stdio.h>
+
 #define SWAP(a, b) \
     do {           \
         int temp = a; \
@@ -23,3 +23,4 @@ int main() {
 
     return 0;
 }
+
