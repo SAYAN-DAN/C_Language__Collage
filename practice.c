@@ -29,13 +29,11 @@
 //     printf("Enter the size of the square: ");
 //     scanf("%d", &n);
 
-    
 //     for (int i = 0; i < n; i++) {
 //         printf("*");
 //     }
 //     printf("\n");
 
-    
 //     for (int i = 1; i < n - 1; i++) {
 //         printf("*");
 //         for (int j = 1; j < n - 1; j++) {
@@ -44,7 +42,6 @@
 //         printf("*\n");
 //     }
 
-    
 //     if (n > 1) {
 //         for (int i = 0; i < n; i++) {
 //             printf("*");
@@ -56,10 +53,16 @@
 // }
 
 
-// Debug the code
-#include <stdio.h>
+// #include <stdio.h>
 
-int main() {
-    char name = 'A';
-    printf("%s", name == 'A' || name == 'C');
+// int main() {
+//   char a[] = "Hello World!";
+//  printf("%s", a);
+//   return 0;
+// }
+#include <stdio.h>
+int main()
+{
+   printf(5 + "GeeksQuiz");
+   return 0;
 }
