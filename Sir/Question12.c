@@ -1,20 +1,27 @@
-// Write a program to find the sum of the following series...
 
-
+// Write a program that reades the power consumed and prints the amount  to be paid by the cusstomer...
 #include<stdio.h>
-
 int main() {
-    int i, n;
-    float fact = 1.0, sum = 0.0;
-    printf("Enter the term you want to calculate: ");
-    scanf("%d", &n);
-
-    for (i = 1; i <= n; i++) { 
-        fact *= i;
-        sum = sum + i / fact; // Corrected division in summation
+    int unit,charge;
+    printf("Enter the unit: ");
+    scanf("%d", &unit);
+    if (unit <= 200)
+    {
+        charge = unit * 5;
     }
-
-    printf("The required value is: %f", sum);
-
-    return 0;    
+    else if ( unit <= 400)
+    {
+        charge = unit * 6;        
+    }
+    else if ( unit <= 600)
+    {
+        charge = unit * 7;        
+    }
+    else
+    {        
+        charge = unit * 10;        
+    }
+    printf("The required charge is :%d", charge);
+    return 0;
+    
 }

@@ -1,13 +1,17 @@
+// Write a program to find the largest among three number using  conditional operator..
 
-// Write a program to find the factorial of a given number.....
 #include<stdio.h>
 int main() {
-    int fact=1,i,n;
-    printf("Enter the n: ");
-    scanf("%d", &n);
-    for ( i = 1; i <=n ; i++){
-        fact = fact*i;
-    }
-    printf("The required fact is: %d", fact);
-    return 0;    
+      int num1, num2, num3, largest;
+      printf("Enter the first number: ");
+    scanf("%d", &num1);
+    
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+    
+    printf("Enter the third number: ");
+    scanf("%d", &num3);
+    largest = (num1 > num2) ? ((num1> num3)? num1 : num3 ) : ((num2 > num3) ? num2 : num3);
+    printf("The largest number is: %d", largest);
+    return 0;
 }

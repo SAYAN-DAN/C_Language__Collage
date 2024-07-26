@@ -1,11 +1,38 @@
-// Write a program to find the sum of the following series..
-// 1/2+3/4+5/6+7/8+9/10........99/100;
+
+// WAP to design a simple desktop program while using switch case....
 #include<stdio.h>
-int main(){
-    float i,j,sum = 0;
-    for ( i = 1,j =2; i <= 99 && j <= 100; i+=2,j+=2){
-        sum = sum+i/j;
-    }
-    printf("The sum is: %f\n",sum);
-    return 0;    
+int main() {
+    int i;
+    float a,b,s;
+    printf("Enter the value of a:");
+    scanf("%f", &a);
+    printf("Enter the value of b:");
+    scanf("%f", &b);
+    printf("\n press 1 for addition");
+    printf("\n press 2 for substraction");
+    printf("\n press 3 for multiplication");
+    printf("\n press 4 for division");
+    printf("\nEnter your choise:");
+    scanf("%d", &i);
+    switch (i){
+     case 1:
+        s = a+b;
+        printf("The addition is:%.2f", s);
+        break;
+     case 2:
+        s = a-b;
+        printf("The substraction is:%.2f", s);
+        break;
+     case 3:
+        s = a*b;
+        printf("The multiplication is:%.2f", s);
+        break;
+     case 4:
+        s = a/b;
+        printf("The division is:%.2f", s);
+        break;     
+     default:
+     printf("Wrong number");
+        break;
+     }
 }

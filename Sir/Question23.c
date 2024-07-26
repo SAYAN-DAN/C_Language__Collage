@@ -1,16 +1,15 @@
-// Write a program to add two number using function
+// Write a program to print the reverse of the digit
 #include<stdio.h>
-int addTwo(int a,int b){
-    return a+b;
-}
-
 int main() {
-    int a,b,sum;
-    printf("Enter the number1: ");
-    scanf("%d", &a);
-    printf("Enter the number2: ");
-    scanf("%d" , &b);
-    sum = addTwo(a,b);
-    printf("The sum of two number is: %d", sum);
-    return 0;
+      int n,remainder,reverse=0;
+    printf("Enter the number: ");
+    scanf("%d", &n);
+    while (n != 0)
+    {
+        remainder = n % 10;
+         reverse = reverse * 10 + remainder;
+         n = n / 10;
+    }
+    printf("The sum of the digit is:%d ", reverse);
+    return 0;    
 }

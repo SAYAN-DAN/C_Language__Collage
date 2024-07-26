@@ -1,27 +1,37 @@
+// Write a program to text the laggest among three number...
 
-// Write a program that reades the power consumed and prints the amount  to be paid by the cusstomer...
 #include<stdio.h>
 int main() {
-    int unit,charge;
-    printf("Enter the unit: ");
-    scanf("%d", &unit);
-    if (unit <= 200)
+    int num1, num2, num3;
+      printf("Enter the first number: ");
+    scanf("%d", &num1);
+    
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+    
+    printf("Enter the third number: ");
+    scanf("%d", &num3);
+    if (num1 > num2)
     {
-        charge = unit * 5;
-    }
-    else if ( unit <= 400)
-    {
-        charge = unit * 6;        
-    }
-    else if ( unit <= 600)
-    {
-        charge = unit * 7;        
+        if (num1 > num3)
+        {
+            printf("The larger number is %d", num1);
+        }
+        else
+        {
+            printf("The larger number is %d", num3);
+        }        
     }
     else
-    {        
-        charge = unit * 10;        
+    {
+        if (num2 > num3)
+        {
+            printf("The larger number is %d", num2);
+        }
+        else
+        {
+            printf("The larger number is %d", num3);
+        }        
     }
-    printf("The required charge is :%d", charge);
-    return 0;
-    
+    return 0;    
 }

@@ -1,17 +1,27 @@
-// Write a program to test weather a number is prime or not...
+// Write a program to find the largest among three number using  if else ladder..
+
 #include<stdio.h>
-int main(){
-    int n,i;
-    printf("Enter a number: ");
-    scanf("%d", &n);
-    for ( i = 2; i <= n-1; i++){
-        if (n % i ==0){
-            printf("This is not a prime number");
-            break;        
-        }
+int main() {
+     int num1, num2, num3;
+      printf("Enter the first number: ");
+    scanf("%d", &num1);
+    
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+    
+    printf("Enter the third number: ");
+    scanf("%d", &num3);
+    if ((num1 > num2) && (num1> num3))
+    {
+        printf("The largest number is :%d" , num1);
     }
-    if ( i == n){
-        printf("This is a prime number");
+    else if ((num2 > num1) && (num2> num3))
+    {
+        printf("The largest number is :%d" , num2);
     }
-    return 0;    
+    else
+    {
+        printf("The largest number is :%d" , num3);
+    }    
+    return 0;
 }

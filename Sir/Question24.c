@@ -1,15 +1,21 @@
-// Write a program to to find the area of a circle using function
+// Write a program to check wheather a number is perfect or not
 #include<stdio.h>
-float findarea(int n){
-    return 3.14* n *n;
-}
-
 int main() {
-    int n;
-    printf("Enter the radius: ");
+    int n,sum=0;
+    printf("Enter the number: ");
     scanf("%d", &n);
-    float area = findarea(n);
-    printf("The area of a circle is: %f", area);
-    return 0;
+    for (int i = 1; i < n; i++)
+    {
+        if (n % i == 0)
+        {
+            sum = sum +i;
+        }        
+    }
+    if (n == sum)
+    {
+        printf("The number is perfect");
+    }else {
+        printf("The number is not perfect");
+    }
+    return 0;        
 }
-

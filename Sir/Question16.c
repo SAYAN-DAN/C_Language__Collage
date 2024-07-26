@@ -1,15 +1,17 @@
- // Write a program to find the sum of Digit
+// Write a program to test weather a number is prime or not...
 #include<stdio.h>
-int main() {
-    int n,remainder,sum=0;
-    printf("Enter the number: ");
+int main(){
+    int n,i;
+    printf("Enter a number: ");
     scanf("%d", &n);
-    while (n != 0)
-    {
-        remainder = n % 10;
-         sum = sum + remainder;
-         n = n / 10;
+    for ( i = 2; i <= n-1; i++){
+        if (n % i ==0){
+            printf("This is not a prime number");
+            break;        
+        }
     }
-    printf("The sum of the digit is:%d ", sum);
+    if ( i == n){
+        printf("This is a prime number");
+    }
     return 0;    
 }

@@ -1,14 +1,13 @@
-// Write a program to find the sum of the following series..
-// s = 1^1+2^2+3^3+.......
+
+// Write a program to find the factorial of a given number.....
 #include<stdio.h>
-#include<math.h>
-int main(){
-    int n,sum = 0;
-    printf("Enter the numbere:");
-    scanf("%d",&n);
-    for (int i = 1; i <= n; i++){
-        sum = sum+pow(i,i);
+int main() {
+    int fact=1,i,n;
+    printf("Enter the n: ");
+    scanf("%d", &n);
+    for ( i = 1; i <=n ; i++){
+        fact = fact*i;
     }
-    printf("The required number is %d",sum);
+    printf("The required fact is: %d", fact);
     return 0;    
 }

@@ -1,20 +1,14 @@
-// Write a program to print
-// 1
-// 2 2
-// 3 3 3
-// 4 4 4 4
+// Write a program to find the sum of the following series..
+// s = 1^1+2^2+3^3+.......
 #include<stdio.h>
-int main() {
-    int n;
-    printf("Enter the number: ");
-    scanf("%d", &n);
-    for (int i = 1; i <= n; i++)
-    {
-        for (int j = 1; j <= i; j++)
-        {
-            printf("%d", i);
-        }
-        printf("\n");        
-    }    
-    return 0;
+#include<math.h>
+int main(){
+    int n,sum = 0;
+    printf("Enter the numbere:");
+    scanf("%d",&n);
+    for (int i = 1; i <= n; i++){
+        sum = sum+pow(i,i);
+    }
+    printf("The required number is %d",sum);
+    return 0;    
 }

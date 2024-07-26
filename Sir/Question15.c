@@ -1,14 +1,37 @@
-// Write a program to compute the sum of all integers that are divisable by 6 but not divisable by 4 and lie betwwen 0 and 100....
+// Print 0 to 9 using for loop.....
+// #include<stdio.h>
+// int main() {
+//     int i;
+//     for ( i = 0; i < 10; i++)
+//     {
+//         printf("The %dth number is %d\n", i,i);
+//     }
+//     return 0;    
+// }
 
-#include<stdio.h>
-int main() {
-  int i,sum=0;
-  for ( i = 1; i <=100; i++){
-      if (i% 6 ==0 && i %4 !=0)
-      {
-         sum = sum+i;
-      }
-  }
-      printf("The sum is:%d",sum);     
-      return 0;  
-}
+// print 0 to 9 using while loop....
+
+// #include<stdio.h>
+// int main() {
+//     int i = 0;
+//     while (i < 10)
+//     {
+//         printf("The %dth number is %d\n", i,i);
+//         i++;
+//     }
+//     return 0;    
+// }
+
+
+//  Print 0 tp 9 using do-while loop...
+
+// #include<stdio.h>
+// int main() {
+//     int i = 0;
+//     do
+//     {
+//         printf("The %dth number is %d\n", i,i);
+//         i++;
+//     } while (i < 10);
+    
+// }

@@ -1,15 +1,20 @@
-// Write a program to print the reverse of the digit
+// Write a program to find the sum of the following series...
+
+
 #include<stdio.h>
+
 int main() {
-      int n,remainder,reverse=0;
-    printf("Enter the number: ");
+    int i, n;
+    float fact = 1.0, sum = 0.0;
+    printf("Enter the term you want to calculate: ");
     scanf("%d", &n);
-    while (n != 0)
-    {
-        remainder = n % 10;
-         reverse = reverse * 10 + remainder;
-         n = n / 10;
+
+    for (i = 1; i <= n; i++) { 
+        fact *= i;
+        sum = sum + i / fact; // Corrected division in summation
     }
-    printf("The sum of the digit is:%d ", reverse);
+
+    printf("The required value is: %f", sum);
+
     return 0;    
 }
