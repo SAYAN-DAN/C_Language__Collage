@@ -1,4 +1,4 @@
-
+// pointer basic concept
 #include<stdio.h>
 int main() {
     int  u = 3;
