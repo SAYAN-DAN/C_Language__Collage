@@ -29,24 +29,11 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 25. Write a program to convert Binary to Decimal number
 
 26.  Write a program to print
-// 1
-// 2 2
-// 3 3 3
-// 4 4 4 4
 
 27. Write a program to print
- //  *****
-   //   ****
-   //   ***
-   //   **
-   //   *
 
 28. Write a program to print
 
-//      *
-//     ***
-//    *****
-//   *******
 29. Write a program to add two number using function.
 30.  Write a program to to find the area of a circle using function
 31. Write a program to find the factorial of a number using Function...
