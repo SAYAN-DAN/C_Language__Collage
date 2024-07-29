@@ -18,16 +18,16 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 16. Write a program to test weather a number is prime or not.
 17. Write a program to find the sum of the following series.
 18. Write a program using if-else ladder.
-19. // Write a program to find the sum of the following series..
+19.  Write a program to find the sum of the following series..
 // 1/2+3/4+5/6+7/8+9/10........99/100;
-20. // Write a program to find the sum of the following series..
+20.  Write a program to find the sum of the following series..
 // s = 1^1+2^2+3^3+.......
 21. Write a program to compute the sum of all integers that are divisable by 6 but not divisable by 4 and lie betwwen 0 and 100.
 22. Write a program to find the sum of Digit.
-23. Write a program to print the reverse of the digit.
-24. Write a program to check wheather a number is perfect or not.
-25. Write a program to convert Binary to Decimal number.
-26. // Write a program to print
+23. Write a program to print the reverse of the digit
+24. Write a program to check wheather a number is perfect or not
+25. Write a program to convert Binary to Decimal number
+26.  Write a program to print
 // 1
 // 2 2
 // 3 3 3
