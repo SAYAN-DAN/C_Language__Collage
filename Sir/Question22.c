@@ -13,3 +13,4 @@ int main() {
     printf("The sum of the digit is:%d ", sum);
     return 0;    
 }
+
