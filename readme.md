@@ -18,7 +18,7 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 16. Write a program to test weather a number is prime or not.
 17. Write a program to find the sum of the following series.
 18. Write a program using if-else ladder.
-19.// Write a program to find the sum of the following series..
+19. // Write a program to find the sum of the following series..
 // 1/2+3/4+5/6+7/8+9/10........99/100;
 20. // Write a program to find the sum of the following series..
 // s = 1^1+2^2+3^3+.......
@@ -32,11 +32,13 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 // 2 2
 // 3 3 3
 // 4 4 4 4
+
 27. //  *****
    //   ****
    //   ***
    //   **
    //   *
+
 28. 
 //      *
 //     ***
