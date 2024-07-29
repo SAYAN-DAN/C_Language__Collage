@@ -27,19 +27,22 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 23. Write a program to print the reverse of the digit
 24. Write a program to check wheather a number is perfect or not
 25. Write a program to convert Binary to Decimal number
+
 26.  Write a program to print
 // 1
 // 2 2
 // 3 3 3
 // 4 4 4 4
 
-27. //  *****
+27. Write a program to print
+ //  *****
    //   ****
    //   ***
    //   **
    //   *
 
-28. 
+28. Write a program to print
+
 //      *
 //     ***
 //    *****
