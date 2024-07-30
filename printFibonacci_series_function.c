@@ -16,5 +16,6 @@ int main() {
     int n;
     printf("Enter the number: ");
     scanf("%d", &n);
+    fibo(n);
     return 0;
 }
