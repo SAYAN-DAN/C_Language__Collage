@@ -1,11 +1,11 @@
 In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 1.  Write a Program to find the integer.
 2. Write a program to find the area of a circle.
-3.Write a program to find the area of a right angle triangle.
-4.WAP to swap two integer..
+3. Write a program to find the area of a right angle triangle.
+4. WAP to swap two integer..
 5. WAP to swap two integer without using third variable.
 6. Write a program to find the largest amount between two number.
-7.Write a program to test weather a number is even or odd
+7. Write a program to test weather a number is even or odd
 8. Write a program to text the laggest among three number
 
 9. Write a program to find the largest among two number using  conditional operator
