@@ -60,4 +60,7 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 6.  Write a function to find whether a given no. is prime or not. Use the same to generate the prime  numbers less than 100
 7.   WAP to compute the factors of a given number.
 8.   Write a macro that swaps two numbers. WAP to use it
-9.   WAP to print a triangle ofstars as follows (take number of lines from user):
+9.   WAP to print a triangle ofstars as follows (take number of lines from user)
+10.  
+
+## jdkvosjbvsjbjsbo
