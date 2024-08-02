@@ -63,4 +63,4 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 9.   WAP to print a triangle ofstars as follows (take number of lines from user)
 10.  
 
-## jdkvosjbvsjbjsbo
+    ### jdkvosjbvsjbjsbo
