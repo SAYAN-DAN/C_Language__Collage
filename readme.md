@@ -64,3 +64,4 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 10.  
 
 9. ### jdkvosjbvsjbjsbo
+  -  Print the even-valuedelements
