@@ -61,7 +61,10 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 7.   WAP to compute the factors of a given number.
 8.   Write a macro that swaps two numbers. WAP to use it
 9.   WAP to print a triangle ofstars as follows (take number of lines from user)
-10.  
-
-9. ### jdkvosjbvsjbjsbo
+10. ###  WAP to perform following actions on an array entered by the user
   -  Print the even-valuedelements
+  -  Print the odd-valued elements
+  -  Calculate and print the sum and average of the elements of array
+  -  Print the maximum and minimum element of array
+  -  Remove the duplicates from the array
+  -  Print the array in reverse order
