@@ -1,3 +1,5 @@
+
+# Santanu Sir's All program
 In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 1.  Write a Program to find the integer.
 2. Write a program to find the area of a circle.
@@ -47,3 +49,15 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 39. Write a program to find the sum of the diagonal element of a matrix
 40.  Write a program Transpose a matrix...
 41. pointer basic concept
+
+# College All Syllabus Programs
+
+1.   WAP to print the sum and product of digits of an integer.
+2.   Write a program to reverse a number
+3.   WAP to compute the sum of the first n terms of the following series S = 1+1/2+1/3+1/4+……
+4.   WAP to compute the sum of the first n terms of the following series S =1-2+3-4+5…………….
+5    Write a function that checks whether a given string is Palindrome or not. Use this function to find  whether the string entered by user is Palindrome or not
+6.  Write a function to find whether a given no. is prime or not. Use the same to generate the prime  numbers less than 100
+7.   WAP to compute the factors of a given number.
+8.   Write a macro that swaps two numbers. WAP to use it
+9.   WAP to print a triangle ofstars as follows (take number of lines from user):
