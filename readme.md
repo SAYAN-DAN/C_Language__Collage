@@ -68,3 +68,13 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
   -  Print the maximum and minimum element of array
   -  Remove the duplicates from the array
   -  Print the array in reverse order
+11.   WAP that prints a table indicating the number of occurrences of each alphabet in the text entered as  command line arguments.
+12.   Write a program that swaps two numbers using pointers
+13.  Write a program in which a function is passed address of two variables and then alter its contents.
+14.  .Write a program which takes the radius of a circle as input from the user, passes it to another function that computes the area and the circumference of the circle and displays the value of area and circumference from the main() function
+15.   Write a menu driven program to perform following operations on strings
+   -  Show address of each character in string
+   -  Concatenate two strings without using strcat function.
+   -  Concatenate two strings using strcat function
+   -  Compare two strings
+   -  
