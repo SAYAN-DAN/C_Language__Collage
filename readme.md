@@ -72,9 +72,18 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 12.   Write a program that swaps two numbers using pointers
 13.  Write a program in which a function is passed address of two variables and then alter its contents.
 14.  Write a program which takes the radius of a circle as input from the user, passes it to another function that computes the area and the circumference of the circle and displays the value of area and circumference from the main() function
-15.   Write a menu driven program to perform following operations on strings
+15. . Write a program to find sum of n elements entered by the user. To write this program, allocate memory dynamically using malloc() / calloc() functions or new operator.
+16.   ### Write a menu driven program to perform following operations on strings
    -  Show address of each character in string
    -  Concatenate two strings without using strcat function.
    -  Concatenate two strings using strcat function
    -  Compare two strings
-   -  
+   -  Calculate length of the string (use pointers)
+   -  Convert all lowercase characters to uppercase
+   -  Convert all uppercase characters to lowercase
+   -  Calculate number of vowels
+   -  Reverse the string
+17.  Given two ordered arrays of integers, write a program to merge the two-arrays to get an ordered array
+18.  WAP to display Fibonacci series (i)using recursion, (ii) using iteration
+19.  WAP to calculate Factorial of a number (i)using recursion, (ii) using iteration
+20. WAP to calculate GCD of two numbers (i) with recursion (ii) without recursion
