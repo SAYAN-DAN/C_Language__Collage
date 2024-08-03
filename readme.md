@@ -87,3 +87,13 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 18.  WAP to display Fibonacci series (i)using recursion, (ii) using iteration
 19.  WAP to calculate Factorial of a number (i)using recursion, (ii) using iteration
 20. WAP to calculate GCD of two numbers (i) with recursion (ii) without recursion
+22. ### . Create Matrix class using templates. Write a menu-driven program to perform following Matrix operations (2-D array implementation)
+   -  Sum 
+   -  Difference
+   -  Product
+   -  Transpose
+
+23.  Write a menu-driven program, using user-defined functions to find the area of rectangle, square, circle and triangle by accepting suitable input paramters from user.
+
+26.  WAP to find sum of the following series for n terms: 1 – 2/2! + 3/3!--------- n/n!
+27. WAP to calculate the sum and product of two compatible matrices.
