@@ -11,10 +11,10 @@ int findfibo(int n) {
     return x;    
 }
 int main() {
- int i,form;
- printf("Enter the form you want to print: ");
- scanf("%d", &form);
- for ( i = 0; i < form; i++)
+ int i,n;
+ printf("Enter the number you want to print: ");
+ scanf("%d", &n);
+ for ( i = 0; i < n; i++)
  {
     printf("The series = %d\n", findfibo(i));
  }
