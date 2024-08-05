@@ -1,13 +1,29 @@
-// Write a program to find the largest among two number using  conditional operator..
+
+
 
 #include<stdio.h>
-int main() {
-    int num1, num2, largest;
-      printf("Enter the first number: ");
-    scanf("%d", &num1);    
-    printf("Enter the second number: ");
-    scanf("%d", &num2);
-   largest =  (num1> num2) ? num1 : num2;
-   printf("The largest number is: %d", largest);
-    return 0; 
+#include<conio.h>
+#include<string.h>
+#include<ctype.h>
+
+void main()
+{
+    int i, l;
+    char a[50];
+    clrscr();
+    printf("Enter a String:\n");
+    gets(a);
+    l = strlen(a);
+    for(i = 0; i < l; i++)
+    {
+        if(a[i] >= '0' && a[i] <= '9')
+            printf("0");
+        else if(a[i] >= 'A' && a[i] <= 'Z')
+            printf("%c", tolower(a[i]));
+        else if(a[i] >= 'a' && a[i] <= 'z') // Corrected this line
+            printf("%c", toupper(a[i]));
+        else
+            printf("*");
+    }
+    getch();
 }
