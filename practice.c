@@ -1,17 +1,22 @@
 
-
-#include <stdio.h>
-
+#include<stdio.h>
+#include<conio.h>
 int main() {
-    int a = 5;
-    int b = 8;
-    int c = 18;
-
-    printf("The equation of the line is: %dx + %dy = %d\n", a, b, c);
-
+    int a,b;
+    printf("Enter the value of a: ");
+    scanf("%d", &a);
+    printf("Enter the value of b: ");
+    scanf("%d" , &b);
+    printf("The value of a before swaping: %d\n", a);
+    printf("The value of b before swaping: %d\n", b);
+    a = a+b;
+    b = a-b;
+    a = a-b;
+    printf("The value of a after swaping: %d\n", a);
+    printf("The value of b after swaping: %d\n", b);
     return 0;
-}
 
+}
 
 // #include<stdio.h>
 // #include<conio.h>
@@ -39,4 +44,3 @@ int main() {
 //     }
 //     getch();
 // }
-

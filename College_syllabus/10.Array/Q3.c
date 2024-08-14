@@ -17,6 +17,5 @@ int main() {
     float average = sum / n;
     printf("The sum is %.2f" , sum);
     printf("The product is %.2f" , average);
-
-    
+   return 0;    
 }
