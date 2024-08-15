@@ -4,7 +4,7 @@ int factorial(int n) {
         return 1;
     }    
     else{
-    int recursion = n*factorial(n-1);
+      return n*factorial(n-1);
     }
 }
 int main() {
@@ -15,4 +15,3 @@ int main() {
     printf("The Factorial of a number is: %d", fact);
     return 0;
 }
-

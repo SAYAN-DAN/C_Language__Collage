@@ -1,18 +1,29 @@
 
 #include<stdio.h>
+int gcd(int a, int b);
 int main() {
-      int n,remainder,reverse=0;
-    printf("Enter the number: ");
-    scanf("%d", &n);
-    while (n != 0)
-    {
-        remainder = n % 10;
-         reverse = reverse * 10 + remainder;
-         n = n / 10;
-    }
-    printf("The reverse of the digit is:%d ", reverse);
-    return 0;    
+    int n1;
+    printf("Enter the number:");
+    scanf("%d", &n1);
+    int n2;
+    printf("Enter the number:");
+    scanf("%d", &n2);
+    int gcdval = gcd(n1,n2);
+    printf("The GCD value of %d and %d is: %d",n1,n2,gcdval);
+    return 0;
 }
+int gcd(int a, int b) {
+    int temp;
+    while ( b != 0)
+    {
+        temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;    
+}
+
+
 
 // #include<stdio.h>
 // #include<conio.h>
