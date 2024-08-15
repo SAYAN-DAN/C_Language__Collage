@@ -1,5 +1,5 @@
 
-// Write a program that reades the power consumed and prints the amount  to be paid by the cusstomer...
+// Write a program that reades the power consumed and prints the amount  to be paid by the cus-tomer...
 #include<stdio.h>
 int main() {
     int unit,charge;

@@ -10,6 +10,6 @@ int main() {
          reverse = reverse * 10 + remainder;
          n = n / 10;
     }
-    printf("The sum of the digit is:%d ", reverse);
+    printf("The reverse of the digit is:%d ", reverse);
     return 0;    
 }

@@ -1,21 +1,17 @@
 
 #include<stdio.h>
-#include<conio.h>
 int main() {
-    int a,b;
-    printf("Enter the value of a: ");
-    scanf("%d", &a);
-    printf("Enter the value of b: ");
-    scanf("%d" , &b);
-    printf("The value of a before swaping: %d\n", a);
-    printf("The value of b before swaping: %d\n", b);
-    a = a+b;
-    b = a-b;
-    a = a-b;
-    printf("The value of a after swaping: %d\n", a);
-    printf("The value of b after swaping: %d\n", b);
-    return 0;
-
+      int n,remainder,reverse=0;
+    printf("Enter the number: ");
+    scanf("%d", &n);
+    while (n != 0)
+    {
+        remainder = n % 10;
+         reverse = reverse * 10 + remainder;
+         n = n / 10;
+    }
+    printf("The reverse of the digit is:%d ", reverse);
+    return 0;    
 }
 
 // #include<stdio.h>
