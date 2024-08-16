@@ -1,4 +1,4 @@
-//  WAP to calculate GCD of two numbers (i) with recursion (ii) without recursion
+//  WAP to calculate GCD of two numbers  with recursion 
 
 // GCD ussing recursion
 // #include <stdio.h>
