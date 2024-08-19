@@ -1,12 +1,9 @@
 
 #include<stdio.h>
-#include<string.h>
 int main() {
-    static char hello[] = "Hello";
-    printf("%s\n")
+    static char a[3][4] = {"abcd" , "mnop", "fghi"};
+    putchar(**a);
 }
-
-
 // #include<stdio.h>
 // #include<conio.h>
 // #include<string.h>
