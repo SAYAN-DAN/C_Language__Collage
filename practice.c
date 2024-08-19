@@ -1,28 +1,10 @@
 
 #include<stdio.h>
-int gcd(int a, int b);
+#include<string.h>
 int main() {
-    int n1;
-    printf("Enter the number:");
-    scanf("%d", &n1);
-    int n2;
-    printf("Enter the number:");
-    scanf("%d", &n2);
-    int gcdval = gcd(n1,n2);
-    printf("The GCD value of %d and %d is: %d",n1,n2,gcdval);
-    return 0;
+    static char hello[] = "Hello";
+    printf("%s\n")
 }
-int gcd(int a, int b) {
-    int temp;
-    while ( b != 0)
-    {
-        temp = b;
-        b = a % b;
-        a = temp;
-    }
-    return a;    
-}
-
 
 
 // #include<stdio.h>
