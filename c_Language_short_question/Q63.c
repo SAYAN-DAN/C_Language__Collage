@@ -1,5 +1,5 @@
 #include <stdio.h>
-main()
+int main()
 {
     putchar('M');
     first();
