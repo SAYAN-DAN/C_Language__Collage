@@ -1,5 +1,4 @@
 
-
 #include<stdio.h>
 int func1(int u, int v) {
     u = 0;

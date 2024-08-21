@@ -1,21 +1,18 @@
-
 #include<stdio.h>
- void swap(int *a , int *b) {
-      int temp = *a;
-      *a = *b;
-      *b = temp;
-      return;
- }
-
-
 int main() {
-    int num1,num2;
-    printf("Enter the numbers: ");
-    scanf("%d %d", &num1,&num2);
-    printf("Before the swapping the number is %d %d\n", num1,num2);
-    swap(&num1 , &num2);
-    printf("After the swapping the number is %d %d", num1,num2);
-    return 0;
+    int n,fibo;
+    printf("Enter the number:");
+    scanf("%d", &n);
+    int a = 0, b = 1;
+    printf("%d\n%d\n", a,b);
+    for (int i = 2; i <n; i++)
+    {
+        fibo = a+b;
+        printf("%d\n" , fibo);
+        a = b;
+        b= fibo;
+    }
+    return 0;    
 }
 // #include<stdio.h>
 // #include<conio.h>
