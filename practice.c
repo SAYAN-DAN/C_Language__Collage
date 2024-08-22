@@ -1,19 +1,27 @@
+
+
+
 #include<stdio.h>
 int main() {
-    int n,fibo;
+    int i,j,n;
     printf("Enter the number:");
     scanf("%d", &n);
-    int a = 0, b = 1;
-    printf("%d\n%d\n", a,b);
-    for (int i = 2; i <n; i++)
+    for ( i = 1; i <=n; i++)
     {
-        fibo = a+b;
-        printf("%d\n" , fibo);
-        a = b;
-        b= fibo;
+        for ( j = 1; j <=i; j++)
+        {
+            printf("%d ", j);
+        }
+        printf("\n");        
     }
     return 0;    
 }
+
+
+
+
+
+
 // #include<stdio.h>
 // #include<conio.h>
 // #include<string.h>
