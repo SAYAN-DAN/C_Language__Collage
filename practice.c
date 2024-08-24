@@ -1,25 +1,23 @@
 
 
-
 #include<stdio.h>
-int main() {
-    int i,j,n;
-    printf("Enter the number:");
-    scanf("%d", &n);
-    for ( i = 1; i <=n; i++)
+int i;
+int fun();
+
+int main()
+{
+    while(i)
     {
-        for ( j = 1; j <=i; j++)
-        {
-            printf("%d ", j);
-        }
-        printf("\n");        
+        fun();
+        main();
     }
-    return 0;    
+    printf("Hello\n");
+    return 0;
 }
-
-
-
-
+int fun()
+{
+    printf("Hi");
+}
 
 
 // #include<stdio.h>
