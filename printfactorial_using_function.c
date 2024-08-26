@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int fact(int n) {
     int fact;
  for (int i = 1; i <=n; i++)
