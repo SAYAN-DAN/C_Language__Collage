@@ -1,15 +1,25 @@
 
 #include<stdio.h>
-int main() {
-    int n, fact=1;
-    printf("Enter the number: ");
-    scanf("%d" , &n);
-    for (int i = 1; i <=n; i++)
-    {
-        fact = fact*i;
+int findfibo(int n) {
+    int x;
+    if (n == 0){
+        return 0;
     }
-    printf("The factorial of number is: %d", fact);
-    return 0;    
+    if (n == 1){
+        return 1;
+    }
+    x = (findfibo(n-2) + findfibo(n-1));
+    return x;    
+}
+int main() {
+ int i,n;
+ printf("Enter the number you want to print: ");
+ scanf("%d", &n);
+ for ( i = 0; i < n; i++)
+ {
+    printf("The series = %d\n", findfibo(i));
+ }
+ return 0;
 }
 
 
