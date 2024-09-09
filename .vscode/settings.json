@@ -1,6 +1,4 @@
 {
-    "files.associations": {
-        "stdio.h": "c",
-        "Q17.C": "cpp"
-    }
+    "pieces.cloudCapabilities": "Blended",
+    "pieces.telemetry": true
 }
