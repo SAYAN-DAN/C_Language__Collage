@@ -1,9 +1,4 @@
-#include<stdio.h>
-int main() {
-    int n;
-    printf("Enter the number: ");
-    scanf("%d", )
-}
+
 // #include<stdio.h>
 // #include<conio.h>
 // #include<string.h>
