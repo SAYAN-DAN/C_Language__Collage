@@ -114,7 +114,7 @@ int another_approach()
 }
 int main()
 {
-    another_approach();
+    // another_approach();
     // if_else_case();
     // switch_case();
 }
