@@ -117,4 +117,7 @@ int main()
     // another_approach();
     // if_else_case();
     // switch_case();
+   int *ptr2;
+    int *ptr1=ptr2+2;
+    printf("%d", ptr1-ptr2);
 }
