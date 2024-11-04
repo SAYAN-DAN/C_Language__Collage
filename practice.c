@@ -112,12 +112,64 @@ int another_approach()
     }
     return 0;
 }
+
+int pointer_Substraction()
+{
+    int *ptr2;
+    int *ptr1 = ptr2 + 2;
+    printf("%d", ptr1 - ptr2);
+}
+
+int calculateStringSze()
+{
+    // Array of strings (each string is a char pointer)
+    char *arr[] = {"Hello", "World", "C", "Programming"};
+    printf("%d\n", sizeof(arr));
+    int size = sizeof(arr) / sizeof(arr[0]);
+    printf("%d\n", size);
+
+    printf("Elements of the array of pointers:\n");
+    for (int i = 0; i < size; i++)
+    {
+        printf("%s\n", arr[i]);
+    }
+}
+
+int calculateArraySize()
+{
+    int arr[] = {10, 20, 30, 40, 50};
+    printf("%d\n", sizeof(arr));
+    int size = sizeof(arr) / sizeof(arr[0]);
+    printf("%d", size);
+}
+
+int do_while_loop()
+{
+    int i = 0;
+    do
+    {
+        printf("%d\n", i);
+        i++;
+    } while (i <= 9);
+}
+
+int print_string_using_while_loop() {
+    char arr[] = { "Hello world"};
+    int i=0;
+    while(arr[i] != '\0'){
+        printf("%c\n", arr[i]);
+        i++;
+    }
+}
+
 int main()
 {
     // another_approach();
     // if_else_case();
     // switch_case();
-   int *ptr2;
-    int *ptr1=ptr2+2;
-    printf("%d", ptr1-ptr2);
+    // pointer_Substraction();
+    // calculateStringSze();
+    // calculateArraySize();
+    // do_while_loop();
+    print_string_using_while_loop();
 }
