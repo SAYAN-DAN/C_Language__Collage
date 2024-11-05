@@ -162,6 +162,24 @@ int print_string_using_while_loop() {
     }
 }
 
+int string_initialization() {
+    char str[] = {"College Wallah"};
+    char *ptr = str;
+    ptr = "Physics Wallah";
+    printf("%s\n", str);
+    printf("%s\n", ptr);
+    printf("%c\n", *ptr);
+}
+
+int string_modify() {
+    char s1[] = {"Collage Wallah"};
+    char s2[] = {"Collage Wallah"};
+    s2[0] = 'M';
+    printf("%s\n", s1);
+    printf("%s", s2);
+}
+
+
 int main()
 {
     // another_approach();
@@ -171,5 +189,7 @@ int main()
     // calculateStringSze();
     // calculateArraySize();
     // do_while_loop();
-    print_string_using_while_loop();
+    // print_string_using_while_loop();
+    // string_initialization();
+    string_modify();
 }
