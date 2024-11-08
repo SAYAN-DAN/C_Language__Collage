@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<string.h>
 
 int if_else_case()
 {
@@ -211,7 +212,28 @@ int string_length_calculate()
     printf("The String length is: %d", count);
 }
 
-
+int compate_string_using_strcmp(){
+    char str1[100];
+    char str2[100];
+    printf("Enter the string 1:");
+    gets(str1);
+    printf("Enter the string 2:");
+    gets(str2);
+    int result = strcmp(str1, str2);
+    if (result == 0)
+    {
+        printf("The strings are equal");
+    }
+    else if (result > 0)
+    {
+        printf("The string-1 are greaterthan string-2");
+    }
+    else
+    {
+        printf("The string-2 are greaterthan string-1");
+    }
+    return 0;
+}
 
 int main()
 {
@@ -227,4 +249,6 @@ int main()
     // string_modify();
     // octal_calculate();
     // string_length_calculate();
+    // compate_string_using_strcmp();
+    
 }

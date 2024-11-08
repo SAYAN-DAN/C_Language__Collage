@@ -1,22 +1,10 @@
 #include <stdio.h>
-#include<string.h>
+#include <string.h>
 int main()
 {
-   char str1[100];
-   char str2[100];
-   printf("Enter the string 1:");
-   gets(str1);
-   printf("Enter the string 2:");
-   gets(str2);
-   int result = strcmp(str1,str2);
-   if(result == 0){
-    printf("The strings are equal");
-   }
-   else if(result > 0){
-    printf("The string-1 are greaterthan string-2");
-   }
-   else{
-    printf("The string-2 are greaterthan string-1");
-   }
-   return 0;
+    char str1[100] = {"Hello"};
+    char str2[] = {" World!"};
+    strcat(str1 , str2);
+    printf("Concatinate string is: %s", str1);
+    return 0;
 }
