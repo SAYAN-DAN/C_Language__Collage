@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<string.h>
+#include <string.h>
 
 int if_else_case()
 {
@@ -212,7 +212,8 @@ int string_length_calculate()
     printf("The String length is: %d", count);
 }
 
-int compate_string_using_strcmp(){
+int compare_string_using_strcmp()
+{
     char str1[100];
     char str2[100];
     printf("Enter the string 1:");
@@ -235,6 +236,35 @@ int compate_string_using_strcmp(){
     return 0;
 }
 
+int concatinate_string_using_strcat()
+{
+    char str1[100] = {"Hello"};
+    char str2[] = {" World!"};
+    strcat(str1, str2);
+    printf("Concatinate string is: %s", str1);
+}
+
+int pointer_Ques_1()
+{
+    char *p;
+    printf("%d %d", sizeof(*p), sizeof(p));
+}
+
+int pointer_Question_2() {
+  printf("%d %d", sizeof(int *), sizeof(int **));
+}
+
+int pointerr_Question_3() {
+    char str[] = "online\0exam";
+    printf("%s", str);
+}
+
+int pointer_Question_4(){
+    char str1[] = "mahendra singh",str2[] = "dhoni caption";
+    strncat(str1,str2,5);
+    printf("\n %s", str1);
+}
+
 int main()
 {
     // another_approach();
@@ -249,6 +279,11 @@ int main()
     // string_modify();
     // octal_calculate();
     // string_length_calculate();
-    // compate_string_using_strcmp();
-    
+    // compare_string_using_strcmp();
+    // concatinate_string_using_strcat();
+    // pointer_Ques_1();
+    // pointer_Question_2();
+    // pointerr_Question_3();
+    pointer_Question_4();
+    return 0;
 }
