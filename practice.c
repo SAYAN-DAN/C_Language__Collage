@@ -250,19 +250,42 @@ int pointer_Ques_1()
     printf("%d %d", sizeof(*p), sizeof(p));
 }
 
-int pointer_Question_2() {
-  printf("%d %d", sizeof(int *), sizeof(int **));
+int pointer_Question_2()
+{
+    printf("%d %d", sizeof(int *), sizeof(int **));
 }
 
-int pointerr_Question_3() {
+int pointerr_Question_3()
+{
     char str[] = "online\0exam";
     printf("%s", str);
 }
 
-int pointer_Question_4(){
-    char str1[] = "mahendra singh",str2[] = "dhoni caption";
-    strncat(str1,str2,5);
+int pointer_Question_4()
+{
+    char str1[] = "mahendra singh", str2[] = "dhoni caption";
+    strncat(str1, str2, 5);
     printf("\n %s", str1);
+}
+
+int if_terminated_by_semicolon()
+{
+    int x = 10;
+
+    if (x == 10)
+        ; // Semicolon ends the if statement with a null statement as its body
+    {
+        printf("x is: 10\n"); // This will execute unconditionally
+    }
+
+    return 0;
+}
+
+int non_decleared_element_in_array()
+{
+    int x[5] = {10, 20, 30};
+    printf("%d", x[3]);
+    return 0;
 }
 
 int main()
@@ -284,6 +307,9 @@ int main()
     // pointer_Ques_1();
     // pointer_Question_2();
     // pointerr_Question_3();
-    pointer_Question_4();
+    // pointer_Question_4();
+    // if_terminated_by_semicolon();
+    non_decleared_element_in_array();
+
     return 0;
 }
