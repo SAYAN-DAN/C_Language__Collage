@@ -153,16 +153,19 @@ int do_while_loop()
     } while (i <= 9);
 }
 
-int print_string_using_while_loop() {
-    char arr[] = { "Hello world"};
-    int i=0;
-    while(arr[i] != '\0'){
+int print_string_using_while_loop()
+{
+    char arr[] = {"Hello world"};
+    int i = 0;
+    while (arr[i] != '\0')
+    {
         printf("%c\n", arr[i]);
         i++;
     }
 }
 
-int string_initialization() {
+int string_initialization()
+{
     char str[] = {"College Wallah"};
     char *ptr = str;
     ptr = "Physics Wallah";
@@ -171,13 +174,43 @@ int string_initialization() {
     printf("%c\n", *ptr);
 }
 
-int string_modify() {
+int string_modify()
+{
     char s1[] = {"Collage Wallah"};
     char s2[] = {"Collage Wallah"};
     s2[0] = 'M';
     printf("%s\n", s1);
     printf("%s", s2);
 }
+
+int octal_calculate()
+{
+    int x = 077;
+    // int y = 079;
+    printf("%d", x);
+    // printf("%d", y);
+    return 0;
+}
+
+int string_length_calculate()
+{
+    int count = 0;
+    char ch[100];
+    printf("Enter the string: ");
+    gets(ch);
+    // Using strlen function---------
+    //     int length = strlen(ch);
+    //    printf("The String length is: %d", length);
+
+    // Without strlen function------------
+
+    for (int i = 0; ch[i] != '\0'; i++)
+    {
+        count++;
+    }
+    printf("The String length is: %d", count);
+}
+
 
 
 int main()
@@ -191,5 +224,7 @@ int main()
     // do_while_loop();
     // print_string_using_while_loop();
     // string_initialization();
-    string_modify();
+    // string_modify();
+    // octal_calculate();
+    // string_length_calculate();
 }
