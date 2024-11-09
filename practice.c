@@ -288,6 +288,69 @@ int non_decleared_element_in_array()
     return 0;
 }
 
+int predict_output_1()
+{
+#define MAN(x, y) ((x) > (y)) ? (x) : (y);
+
+    int i = 10, j = 5, k = 0;
+    k = MAN(++i, j++);
+    printf("%d, %d, %d\n", i, j, k);
+    return 0;
+}
+
+int predict_output_2()
+{
+#define SQR(x) (x * x)
+
+    int a, b = 3;
+    a = SQR(b + 2);
+    printf("%d\n", a);
+    return 0;
+}
+
+int predict_output_3()
+{
+#define CUBE(x) (x * x * x)
+    int a, b = 3;
+    a = CUBE(b++);
+    printf("%d, %d\n", a, b);
+    return 0;
+}
+
+int predict_output_4()
+{
+    int x;
+    x = printf("sbte");
+    printf("=%d", x);
+}
+
+int predict_output_5()
+{
+    float a = 0.1;
+    if (a == 0.1)
+        printf("equal\n");
+    else
+        printf("not equal\n");
+}
+
+int predict_output_6()
+{
+    double a = 14728749.22;
+    int b = a;
+    printf("%d\n", b);
+    printf("%lf\n", b);
+}
+
+int predict_output_7()
+{
+    printf("%d", printf("timm"));
+}
+
+int predict_output_8()
+{
+    char x, y, z;
+    printf("%d", scanf("%c%c%c", &x, &y, &z));
+}
 int main()
 {
     // another_approach();
@@ -309,7 +372,15 @@ int main()
     // pointerr_Question_3();
     // pointer_Question_4();
     // if_terminated_by_semicolon();
-    non_decleared_element_in_array();
+    // non_decleared_element_in_array();
+    // predict_output_1();
+    // predict_output_2();
+    // predict_output_3();
+    // predict_output_4();
+    // predict_output_5();
+    // predict_output_6();
+    // predict_output_7();
+    // predict_output_8();
 
     return 0;
 }
