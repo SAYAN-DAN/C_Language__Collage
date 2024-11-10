@@ -1,22 +1,37 @@
+#include <stdio.h>
+int main()
+{
+    int arr[3][3], sum = 0, i, j;
 
-#include<stdio.h>
-int func1(int u, int v) {
-    u = 0;
-    v = 0;
-    printf("\n Within func1: u = %d v = %d", u,v);
-}
-int func2(int *pu, int *pv) {
-    *pu = 0;
-    *pv = 0;
-    printf("\n Within func2: *pu = %d *pv = %d", *pu,*pv);
-}
+    for (i = 0; i < 3; i++)
+    {
+        for (j = 0; j < 3; j++)
+        {
+            scanf("%d", &arr[i][j]);
+        }
+    }
+    printf("The Original matrix of arr[%d][%d] is: ", i, j);
+    printf("\n");
+    for (i = 0; i < 3; i++)
+    {
+        for (j = 0; j < 3; j++)
+        {
+            printf("%d ", arr[i][j]);
+        }
+        printf("\n");
+    }
 
-int main() {
-    int u=1,v=1;
-    printf("\n Before calling func1: u = %d v = %d",u,v);
-    func1(u,v);
-    printf("\nAfter calling func1: u = %d v = %d", u,v);
-    printf("\n Before calling func2: u = %d v = %d",u,v);
-    func2(&u,&v);
-    printf("\nAfter calling func2: u = %d v = %d", u,v);
+    // Diagonal Sum---
+    for (i = 0; i < 3; i++)
+    {
+        for (j = 0; j < 3; j++)
+        {
+            if (i == j)
+            {
+                sum += arr[i][j];
+            }
+        }
+    }
+
+    printf("The Sum is: %d", sum);
 }
