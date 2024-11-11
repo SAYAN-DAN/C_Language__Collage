@@ -351,6 +351,54 @@ int predict_output_8()
     char x, y, z;
     printf("%d", scanf("%c%c%c", &x, &y, &z));
 }
+
+int predict_output_9()
+{
+    int a = 1, b = 2, c = 3;
+    // here we get the value of d is 11 in first case and get 8 in the sccond case why?? because the value of the last expression is evaluated the ans of d because here we use , operator..
+    //    int d = (a=c,b+=a,c = a+b+c);
+    int d = (a = c, c = a + b + c, b += a);
+    printf("%d\n", d);
+    printf("%d\n", a);
+    printf("%d\n", b);
+    printf("%d\n", c);
+}
+
+int predict_output_10()
+{
+    int a = 20;
+    double b = 15.6;
+    int c;
+    c = a + b;
+    printf("%d", c);
+}
+
+int predict_the_output_11()
+{
+    int true = 4;
+    int false = 4;
+    int friend = 4;
+    int export = 4;
+    int array = 4;
+    // int volatile = 4;
+    printf("%d\n", true);
+    printf("%d\n", friend);
+    printf("%d\n", export);
+    printf("%d\n", false);
+    printf("%d\n", array);
+    return 0;
+}
+
+int predict_the_output_12()
+{
+    int var = 010;   // 1*8^1 + 0 *8^0 = 8
+    int var1 = 011;    // 1*8^1 + 1 *8^0 = 8+1 = 9
+    int var2 = 0111;    // 1*8^2 + 1 *8^1 + 1 * 8^0 = 64+8+1 = 73 
+    printf("%d\n", var);
+    printf("%d\n", var1);
+    printf("%d\n", var2);
+}
+
 int main()
 {
     // another_approach();
@@ -381,6 +429,9 @@ int main()
     // predict_output_6();
     // predict_output_7();
     // predict_output_8();
-
+    // predict_output_9();
+    // predict_output_10();
+    // predict_the_output_11();
+    predict_the_output_12();
     return 0;
 }
