@@ -392,12 +392,38 @@ int predict_the_output_11()
 int predict_the_output_12()
 {
     int var = 010;   // 1*8^1 + 0 *8^0 = 8
-    int var1 = 011;    // 1*8^1 + 1 *8^0 = 8+1 = 9
-    int var2 = 0111;    // 1*8^2 + 1 *8^1 + 1 * 8^0 = 64+8+1 = 73 
+    int var1 = 011;  // 1*8^1 + 1 *8^0 = 8+1 = 9
+    int var2 = 0111; // 1*8^2 + 1 *8^1 + 1 * 8^0 = 64+8+1 = 73
     printf("%d\n", var);
     printf("%d\n", var1);
     printf("%d\n", var2);
 }
+
+int predict_the_ouput_13()
+{
+    int x = 10000;
+    double y = 56;
+    int *p = &x;
+    double *q = &y;
+    printf("p and q are %d and %d", sizeof(p), sizeof(q));
+    return 0;
+}
+
+int predict_output_14()
+{
+    float a = 0.1;
+    if (a == 0.1f)
+        printf("equal\n");
+    else
+        printf("not equal\n");
+}
+
+int predict_the_output_15(){
+    int a = 3;
+    int b = ++a + a++ + --a;
+    printf("Value of b is %d", b);
+}
+
 
 int main()
 {
@@ -432,6 +458,9 @@ int main()
     // predict_output_9();
     // predict_output_10();
     // predict_the_output_11();
-    predict_the_output_12();
+    // predict_the_output_12();
+    // predict_the_ouput_13();
+    // predict_output_14();
+    predict_the_output_15();
     return 0;
 }
