@@ -418,12 +418,23 @@ int predict_output_14()
         printf("not equal\n");
 }
 
-int predict_the_output_15(){
+int predict_the_output_15()
+{
     int a = 3;
     int b = ++a + a++ + --a;
     printf("Value of b is %d", b);
 }
 
+int predict_thr_output_16()
+{
+    int i = 0;
+    for (i = 0; i < 5; i++)
+        if (i < 4)
+        {
+            printf("Hello");
+            break;
+        }
+}
 
 int main()
 {
@@ -461,6 +472,7 @@ int main()
     // predict_the_output_12();
     // predict_the_ouput_13();
     // predict_output_14();
-    predict_the_output_15();
+    // predict_the_output_15();
+    predict_thr_output_16();
     return 0;
 }
