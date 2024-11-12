@@ -1,31 +1,33 @@
 #include <stdio.h>
+#include <string.h>
 
-int main() {
-    int arr[10], n, i, d, temp;
-    
-    printf("Enter the number of elements:\n");
-    scanf("%d", &n);
-    
-    printf("Enter %d integers:\n", n);
-    for (i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+void reverseString(char *str)
+{
+    int start = 0;
+    int end = strlen(str) - 1;
+    char temp;
+
+    // Swap characters from start and end until the middle is reached
+    while (start < end)
+    {
+        temp = str[start];
+        str[start] = str[end];
+        str[end] = temp;
+        start++;
+        end--;
     }
-    
-    // Bubble sort logic
-    for (i = 0; i < n - 1; i++) {
-        for (d = 0; d < n - i - 1; d++) {
-            if (arr[d] > arr[d + 1]) {
-                temp = arr[d];
-                arr[d] = arr[d + 1];
-                arr[d + 1] = temp;
-            }
-        }
-    }
-    
-    printf("Sorted list:\n");
-    for (i = 0; i < n; i++) {
-        printf("%d\n", arr[i]);
-    }
-    
+}
+
+int main()
+{
+    char str[100];
+
+    printf("Enter a string: ");
+    scanf("%s", str);
+
+    reverseString(str);
+
+    printf("Reversed string: %s\n", str);
+
     return 0;
 }
