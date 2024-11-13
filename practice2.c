@@ -1,8 +1,7 @@
-   #include <stdio.h>
-    int main()
+ #include <stdio.h>
+    void main()
     {
-        int p ;
-        p = 4;
-        printf("p is %d", p);
-        return 0;
+        float x = 9.1;
+        printf("%d, ", x);
+        printf("%f", x);
     }
