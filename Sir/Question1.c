@@ -1,4 +1,4 @@
-// Write a Program to find the integer
+// Write a Program to find the sum of  integer
 #include <stdio.h>
 int main()
 {

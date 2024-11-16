@@ -3,8 +3,9 @@
 // 2 2
 // 3 3 3
 // 4 4 4 4
-#include<stdio.h>
-int main() {
+#include <stdio.h>
+int main()
+{
     int n;
     printf("Enter the number: ");
     scanf("%d", &n);
@@ -14,7 +15,7 @@ int main() {
         {
             printf("%d", i);
         }
-        printf("\n");        
-    }    
+        printf("\n");
+    }
     return 0;
 }
