@@ -1,15 +1,17 @@
 // Write a program to find the factorial of a number using Function...
-#include<stdio.h>
-int fact(int n){
+#include <stdio.h>
+int fact(int n)
+{
     int num = 1;
     for (int i = 1; i <= n; i++)
     {
         num = num * i;
     }
-    return num;    
+    return num;
 }
 
-int main() {
+int main()
+{
     int n;
     printf("Enter the number: ");
     scanf("%d", &n);
@@ -17,4 +19,3 @@ int main() {
     printf("The factorial of a number is: %d", factorial);
     return 0;
 }
-

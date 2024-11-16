@@ -1,16 +1,17 @@
 // Write a program to find the sum of digit using Recursion...
 
-#include<stdio.h>
+#include <stdio.h>
 
-int sumfDigit(int n) {
-    if ( n == 0)
+int sumfDigit(int n)
+{
+    if (n == 0)
     {
         return 0;
     }
-    return (n % 10) +sumfDigit(n / 10);
-    
+    return (n % 10) + sumfDigit(n / 10);
 }
-int main() {
+int main()
+{
     int n;
     printf("Enter a number: ");
     scanf("%d", &n);
