@@ -1,13 +1,8 @@
     #include <stdio.h>
-    void m();
-    void n()
+    int main()
     {
-        m();
-    }
-    void main()
-    {
-        void m()
-        {
-            printf("hi");
-        }
+        register int i = 10;
+        int *p = &i;
+        *p = 11;
+        printf("%d %d\n", i, *p);
     }
