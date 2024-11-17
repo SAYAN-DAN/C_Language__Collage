@@ -1,9 +1,12 @@
-#include <stdio.h>
-int x = 0;
-void main()
-{
-    int *ptr = &x;
-    printf("%p\n", ptr);
-    x++;
-    printf("%p\n ", ptr);
-}
+
+    #include <stdio.h>
+    void foo(int*);
+    int main()
+    {
+        int i = 10, *p = &i;
+        foo(p++);
+    }
+    void foo(int *p)
+    {
+        printf("%d\n", *p);
+    }
