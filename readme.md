@@ -65,6 +65,14 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 55. Reverse a string...
 56. Add Two Matrix...
 57. Multiplicaion of two Matrix...
+58. Structure inside a structure..
+59. Write a program to count the number of vowel and digit in a given string..
+
+60. pow using Recursion
+61. Find that a string is palindrome or not using recurtion
+62.  Using Recurtion reverse an integer
+63. convert text file to uppercase...
+64. 
 
 # College All Syllabus Programs
 

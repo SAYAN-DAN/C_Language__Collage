@@ -20,3 +20,4 @@ int main()
     printf("The Factorial of a number is: %d", fact);
     return 0;
 }
+
