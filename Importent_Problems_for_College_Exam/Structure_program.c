@@ -18,6 +18,6 @@ int main()
     printf("Enter student roll:");
     scanf("%d", s.roll);
 
-    printf("%d\n %s \n %s \n %d", s.id, s.name, s.address, s.roll);
+    printf("%d\n%s\n%s\n%d", s.id, s.name, s.address, s.roll);
     return 0;
 }
