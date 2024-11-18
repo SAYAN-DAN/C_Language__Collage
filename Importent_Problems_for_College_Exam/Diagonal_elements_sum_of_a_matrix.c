@@ -1,36 +1,34 @@
 #include <stdio.h>
 int main()
 {
-    int arr[3][3], sum = 0, i, j;
-
-    for (i = 0; i < 3; i++)
+    int m, n;
+    printf("Enter the number of element in the row in the matrix:\n ");
+    scanf("%d", &m);
+    printf("Enter the number of element in the column in the matrix:\n ");
+    scanf("%d", &n);
+    int matrix[m][n];
+    int sum = 0;
+    printf("Enter the elements of the matrix:\n");
+    for (int i = 0; i < m; i++)
     {
-        for (j = 0; j < 3; j++)
+        for (int j = 0; j < n; j++)
         {
-            scanf("%d", &arr[i][j]);
-        }
-    }
-    printf("The Original matrix of arr[%d][%d] is: ", i, j);
-    printf("\n");
-    for (i = 0; i < 3; i++)
-    {
-        for (j = 0; j < 3; j++)
-        {
-            printf("%d ", arr[i][j]);
+            scanf("%d", &matrix[i][j]);
         }
         printf("\n");
     }
-
-    //Diagonal Sum---
-     for (i = 0; i < 3; i++)
+    // Transpose the matrix
+    for (int i = 0; i < m; i++)
     {
-        for (j = 0; j < 3; j++)
+        for (int j = 0; j < n; j++)
         {
-          if(i == j){
-            sum += arr[i][j];
-          }
+            if (i == j)
+            {
+                sum += matrix[i][j];
+            }
         }
     }
 
-    printf("The Sum is: %d", sum);
+    printf("The sum of the Diagonal Matrix is:%d \n", sum);
+    return 0;
 }

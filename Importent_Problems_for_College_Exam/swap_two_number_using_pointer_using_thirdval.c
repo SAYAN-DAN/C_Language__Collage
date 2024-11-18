@@ -19,5 +19,3 @@ int main()
     printf("The GCD of num1 is %d\n", n1);
     printf("The GCD of num2 is %d\n", n2);
 }
-
-
