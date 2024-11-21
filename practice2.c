@@ -1,17 +1,38 @@
 
 #include <stdio.h>
-int main()
+void main()
 {
-    int start = 1, end = 10;
-    int curr = start;
-
-    print_line:
-    printf("%d", curr);
-
-    if (curr < end)
+    int arr[3][3], max;
+    for (int i = 0; i < 3; i++)
     {
-        curr++;
-        goto print_line;
+        for (int j = 0; j < 3; j++)
+        {
+            scanf("%d", &arr[i][j]);
+        }
     }
-    return 0;
+
+    printf("The Matrix is\n");
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            printf("%d", arr[i][j]);
+        }
+        printf("\n");
+    }
+
+    max = arr[0][0];
+
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            if (max < arr[i][j])
+            {
+                max = arr[i][j];
+            }
+        }
+    }
+
+    printf("The Maximum number is: %d", max);
 }

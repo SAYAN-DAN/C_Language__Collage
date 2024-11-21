@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void main()
 {
     int arr[3][3], max;
     for (int i = 0; i < 3; i++)
