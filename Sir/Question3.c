@@ -15,12 +15,6 @@ int main()
 }
 
 
-
-
-
-
-
-
 // int main() {
 // // Create integer variables
 // int length = 4;
