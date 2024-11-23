@@ -11,4 +11,3 @@ int main()
     printf("The area = %.2f", area);
     return 0;
 }
-
