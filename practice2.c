@@ -1,8 +1,27 @@
+
 #include <stdio.h>
-int *i;
 int main()
 {
-    if (i == 0)
-        printf("true\n");
-    return 0;
+    int charge = 0;
+    int unit;
+    printf("Enter the Unit: ");
+    scanf("%d", &unit);
+    if (unit <= 200)
+    {
+        charge = 5 * unit;
+    }
+    else if (unit <= 400)
+    {
+        charge = 6 * unit;
+    }
+    else if (unit <= 600)
+    {
+        charge = 7 * unit;
+    }
+    else
+    {
+        charge = 10 * unit;
+    }
+
+    printf("The Charge is %d", charge);
 }
