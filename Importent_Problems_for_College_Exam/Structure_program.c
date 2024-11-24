@@ -16,7 +16,7 @@ int main()
     printf("Enter student Address:");
     scanf("%s", s.address);
     printf("Enter student roll:");
-    scanf("%d", s.roll);
+    scanf("%d", &s.roll);
 
     printf("%d\n%s\n%s\n%d", s.id, s.name, s.address, s.roll);
     return 0;
