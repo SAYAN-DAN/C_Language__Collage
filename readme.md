@@ -73,6 +73,8 @@ In the Sir Folder I Solve 41 Different Problem in c Language for my Sem Exam
 62.  Using Recurtion reverse an integer
 63. convert text file to uppercase...
 64. go-to statement
+65. copy a string into a another string.
+66. copy a string into a another string without strcpy.
 
 # College All Syllabus Programs
 
